@@ -409,8 +409,9 @@ h3 {
 
 .video-frame {
   overflow: hidden;
-  width: 100%;
-  aspect-ratio: 16 / 9;
+  width: min(100%, 420px);
+  aspect-ratio: 9 / 16;
+  margin-inline: auto;
   background: var(--ink);
   border: 8px solid var(--white);
   border-radius: 8px;
